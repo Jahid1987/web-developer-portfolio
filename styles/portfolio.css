@@ -115,6 +115,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* about section  */
 
 .about{
@@ -137,4 +140,32 @@ main{
 .info-description{
     color: #474747;
     font-weight: 700;
+}
+
+/* skill section  */
+.skills-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px #0000000f;
+    padding: 30px;
+}
+.skill img{
+    width: 44px;
+    height: 44px;
+}
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
