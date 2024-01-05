@@ -7,15 +7,27 @@ body{
     color: #FD6E0A;
 }
 .btn-primary{
-    width: 150px;
+    width: 200px;
     height: 64px;
     background: #FD6E0A;
     border: 0;
     font-size: 20px;
     font-weight: 700;
+    line-height: normal;
     color: white;
     padding: 15px 35px;
-    
+    border-radius: 5px;
+}
+.btn-primary-outline{
+    width: 200px;
+    height: 64px;
+    border: 1px solid #FD6E0A;
+    background-color: #FFF8F3;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    color: #FD6E0A;
+    padding: 15px 35px;
 }
 
 /* nav related styles */
@@ -23,6 +35,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     color: var(--Dark-01, #181818);
@@ -42,4 +55,17 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/* header related styles */
+header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
