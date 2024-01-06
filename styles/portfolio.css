@@ -203,3 +203,50 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+
+/* Footer section */
+footer{
+    background: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 120px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-title{
+    color:#181818;
+    text-align: left;
+    font-size: 35px;
+}
+.footer-description{
+    color:#474747;
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 562px;
+    margin-top: 20px;
+}
+.social-links a{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin: 30px 30px 0 0;
+}
+.contact-form{
+    margin-top: 5px;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+textarea{
+    display: block;
+    margin: 24px 0;
+    width: 461px;
+    padding: 15px 30px;
+    color: #757575;
+    line-height: 28px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    background: #fff;
+}
